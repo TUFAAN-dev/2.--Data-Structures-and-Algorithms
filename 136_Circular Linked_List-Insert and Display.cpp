@@ -29,9 +29,7 @@ public:
             do {
                   cout << start->data << " ";
                   start = start->next;
-            } while {
-                  start != tail->next;
-            };
+            } while (start != tail->next);
 
             cout << endl;
       }
